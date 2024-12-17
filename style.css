@@ -36,7 +36,7 @@ header {
 }
 
 
-.products-list {
+.productsList {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
@@ -97,7 +97,7 @@ button:hover {
 }
 
 
-.cart-sidebar {
+#cartSidebar {
     position: fixed;
     top: 0;
     right: -300px;  
@@ -190,12 +190,12 @@ button:hover {
         font-size: 0.6em;
     }
 
-    .cart-sidebar {
+    #cartSidebar {
         width: 70%; 
         right: -70%; 
     }
 
-    .products-list {
+    .productsList {
         gap: 15px;
     }
 
@@ -217,7 +217,7 @@ button:hover {
     .product {
         width: 90%; }
 
-    .cart-sidebar {
+    #cartSidebar {
         width: 100%;
         right: -100%;
     }
